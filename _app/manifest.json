@@ -1,0 +1,96 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-b3e63fea.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-75e02c3a.js",
+      "_singletons-a6a7384f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/Keyboard.svelte",
+      "src/routes/WordRow.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-f9ad49cc.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-75e02c3a.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-572ecc95.css"
+    ],
+    "assets": [
+      "assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+      "assets/fira-mono-all-400-normal-1e3b098c.woff",
+      "assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+      "assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+      "assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+      "assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+      "assets/fira-mono-latin-400-normal-e43b3538.woff2"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-95719701.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-75e02c3a.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-d7c0f8bd.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-75e02c3a.js",
+      "_Board-d683b669.js",
+      "src/routes/WordRow.svelte",
+      "src/routes/Keyboard.svelte",
+      "_singletons-a6a7384f.js"
+    ]
+  },
+  "src/routes/WordRow.svelte": {
+    "file": "pages/WordRow.svelte-8cf92c9b.js",
+    "src": "src/routes/WordRow.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-75e02c3a.js",
+      "_Board-d683b669.js"
+    ],
+    "css": [
+      "assets/pages/WordRow.svelte-3d85f80c.css"
+    ]
+  },
+  "src/routes/Keyboard.svelte": {
+    "file": "pages/Keyboard.svelte-50e3dfbd.js",
+    "src": "src/routes/Keyboard.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-75e02c3a.js",
+      "_Board-d683b669.js"
+    ],
+    "css": [
+      "assets/pages/Keyboard.svelte-f5600dce.css"
+    ]
+  },
+  "_vendor-75e02c3a.js": {
+    "file": "chunks/vendor-75e02c3a.js"
+  },
+  "_singletons-a6a7384f.js": {
+    "file": "chunks/singletons-a6a7384f.js"
+  },
+  "_Board-d683b669.js": {
+    "file": "chunks/Board-d683b669.js"
+  }
+}
